@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  
+}
+
+.board {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 4px;
+  margin: 20px auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+h1{
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+h2{
+  margin: 30px;
+}
+.button{
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover{
+  cursor:pointer;
+}
+.selected-symbol{
+  background-color: black;
+  color: white;
+  
+}
