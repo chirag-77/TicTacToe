@@ -15,7 +15,7 @@ async function fetchComputerMove(board){
     console.log(e)
     result = {
       boxId: -1,
-      error: "computer has failed to execute its turn"
+      error: "computer failed to execute its turn"
     }
   }
   return result
@@ -110,7 +110,7 @@ const App = () => {
   return (
     <div className="App">
 
-      <em><h1 className='font'>Tic Tac Toe</h1></em>
+      <em><h1 className='start font'>Tic Tac Toe</h1></em>
       <div className="board">
         {board.map((box, index) => (
           <React.Fragment key={index}>{renderBox(index)}</React.Fragment>
