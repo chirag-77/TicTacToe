@@ -2,6 +2,8 @@
 
 This project allow the player to choose their marker and play with the computer.
 
+Play at https://tic-tac-kulxlgasf-chirag-77.vercel.app/
+
 ## Run The App
 
 In the project directory, you can run:
@@ -13,7 +15,5 @@ In the project directory, you can run:
 Runs the app in the development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-Alternatively you can find it live on https://tic-tac-kulxlgasf-chirag-77.vercel.app/
 
 
