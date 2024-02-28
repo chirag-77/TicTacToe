@@ -2,8 +2,7 @@
 
 This project allow the player to choose their marker and play with the computer.
 
-Play at https://tic-tac-kulxlgasf-chirag-77.vercel.app/
-
+Play at https://tic-tac-toe-wine-chi.vercel.app
 ## Run The App
 
 In the project directory, you can run:
